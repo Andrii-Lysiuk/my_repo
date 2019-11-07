@@ -1,0 +1,93 @@
+<div class="container-fluid">
+  <h3>Front-end developer</h3>
+  <div class='contacts row'>
+    <div class="contacts__about col-md-8">
+      <table class='table table-hover table-strinped'>
+        <tr class='row'>
+          <th class='text-right col-4'>Имя:</th>
+          <td class='col-8'>Андрей Лисюк</td>
+        </tr>
+
+        <tr class='row'>
+          <th class='text-right col-4'>Откуда:</th>
+
+          <td class='col-8'>Киев</td>
+        </tr>
+        <tr class='row'>
+          <th class='text-right col-4'>Возраст:</th>
+
+          <td class='col-8'>54</td>
+        </tr>
+        <tr class='row'>
+          <th class='text-right col-4'>Контакты:</th>
+
+          <td class='col-8'>Тел.: +38(067)167-45-59<br> Email:
+            <a href="mailto:avl.hp2208@gmail.com">avl.hp2208@gmail.com</a></td>
+        </tr>
+
+      </table>
+    </div>
+    <div>
+
+      <img src="src/assets/01.jpg" alt="">
+    </div>
+  </div>
+  <div class="row goal">
+    <table class="table">
+      <tr class='row'>
+        <th class='col-2'>Цель:</th>
+        <td class='col-10'>Получение должности Front-End Developer, для развития навыков и умений в команде для
+          достижения цели.
+        </td>
+      </tr>
+      <tr class='row'>
+        <th class='col-2'>Technologies:</th>
+        <td class='col-10'>
+          <ul>
+            <li class='tip' *ngFor="let item of technologies">{{item.name}}
+              <span>{{item.description}}</span>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr class='row'>
+        <th class='col-2'>Образование:</th>
+        <td class='col-10'>Киевское высшее военно-морское политическое училище.<br>
+          Украинский образовательный центр менеджмента и предпринимательства - экономист. <br>
+          CyberBionic Systematics - Front End Developer.
+        </td>
+      </tr>
+      <tr class='row'>
+        <th class='col-2'>Опыт:</th>
+        <td class='col-10'>
+          <b>August 2017 — Present (1 year, 2 month)</b><br>
+          <b>Web front-end developer (CyberBionic Systematics)</b>
+          <ul class='Expirience'>
+            <li>
+              Web-page design development <a href='itvdn.com'>itvdn.com</a>
+            </li>
+            <li>Development of the functionality web-test app. <a href='testprovider.com'>testprovider.com</a>
+            </li>
+            <li>Development training materials <a href='itvdn.com'>itvdn.com</a>
+            </li>
+            <li>Developing SPA projects using Angular CLI
+            </li>
+          </ul>
+          <hr>
+          <b>January 2018 — Present (10 month)
+          </b><br>
+          <b>Senior trainer (CyberBionic Systematics)</b>
+          <ul>
+            <li>
+              Lection of material to students of training center, using coaching method
+            </li>
+            <li>Interim and final test for students to achieve storing material covered
+            </li>
+            <li>Selection, training and listening of teachers for the training center
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
