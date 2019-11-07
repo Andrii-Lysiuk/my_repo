@@ -1,8 +1,9 @@
-:host {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.contactsRow {
+display: flex;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 td a {
@@ -83,3 +84,8 @@ li.tip:hover span {
 .Expirience li:hover a {
   color: white;
 }
+
+img {
+  border-radius: 15px;
+}
+
