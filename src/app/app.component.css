@@ -1,10 +1,11 @@
 header {
-  width: 1200px;
-  position: fixed;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 nav {
   text-align: center;
-  background: rgb(43, 68, 207);
+  background: linear-gradient(to top, #e9c707, #3677f1);
+  
 }
 
 a {
@@ -13,20 +14,17 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+  color: black;
 }
 
 a:hover {
   background: rgb(221, 208, 28);
+  color: red;
 }
 
-/* .active {
-  background: rgb(216, 169, 15);
-} */
-
 footer {
- 
   max-width: 1200px;
-  background: rgb(57, 47, 185);
+  background: linear-gradient(to top, #e9c707, #3677f1);
   height: 50px;
   margin: 0 auto;
   font-size: 10px;

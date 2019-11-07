@@ -2,6 +2,10 @@
 display: flex;
 }
 
+.row {
+  font-weight: bold;
+}
+
 h2 {
   font-size: 30px;
 }
