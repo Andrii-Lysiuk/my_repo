@@ -1,4 +1,4 @@
-import { CoursesService, Courses } from './../courses.service';
+import { CoursesService, Courses } from '../education/courses.service';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
@@ -19,6 +19,6 @@ export class CoursesDetailsComponent implements OnInit {
     this.activeCourse = this.coursesService.getOne(id);
   }
   goBack() {
-    this.router.navigate(['/education/courses']);
+    this.router.navigate(['/courses']);
   }
 }
