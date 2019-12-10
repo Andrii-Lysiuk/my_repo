@@ -31,21 +31,10 @@ width: max-content;
 }
 h1 {
   text-align: center;
-  
 }
 
 td a {
   text-decoration: none;
-}
-
-.contacts__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 4px solid #fff;
-  height: 330px;
-  width: 250px;
-
 }
 
 ul {

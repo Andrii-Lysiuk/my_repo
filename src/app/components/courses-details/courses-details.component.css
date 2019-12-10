@@ -10,10 +10,10 @@ button {
     background: rgb(238, 230, 179);
     font-size: 20px;
     cursor: pointer;
-    /* margin-left: 550px; */
     border-radius: 10px;
     position: relative;
     left: 44%;
+    margin-bottom: 10px;
 }    
 .certificate {
     font-size: 20px;
