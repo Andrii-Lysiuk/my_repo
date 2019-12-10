@@ -1,79 +1,86 @@
-<div class="container-fluid">
-  <h2>Front-end developer</h2>
+<div class="container">
+  <h1>Front-end developer</h1>
   <div class='contactsRow'>
-    <div class="contacts__about col-md-8">
-      <table class='table table-hover table-strinped'>
+    <div class="col-md-8">
+
+      <table>
         <tr class='row'>
-          <th class='row'>Имя:</th>
-          <td class='col-8'>Андрей Лисюк</td>
+          <th class='rowt'>Name:</th>
+          <td class='col'>Andrii Lysiuk</td>
         </tr>
 
         <tr class='row'>
-          <th class='row'>Откуда:</th>
-
-          <td class='col-8'>Киев</td>
+          <th class='rowt'>Location:</th>
+          <td class='col'>Kyiv</td>
         </tr>
+
         <tr class='row'>
-          <th class='row'>Возраст:</th>
-
-          <td class='col-8'>54</td>
+          <th class='rowt'>Age:</th>
+          <td class='col'>54</td>
         </tr>
+
         <tr class='row'>
-          <th class='row'>Контакты:</th>
-
-          <td class='col-8'>Тел.: +38(067)167-45-59<br> Email:
-            <a href="mailto:avl.hp2208@gmail.com">avl.hp2208@gmail.com</a></td>
+          <th class='rowt'>Contact:</th>
+          <td class='colt'>Phone: +38(067)167-45-59 <br> e-mail: <a href="mailto:avl.hp2208@gmail.com">avl.hp2208@gmail.com</a>
+          </td>
         </tr>
-
+        
       </table>
+
     </div>
     <div class="img">
-
-      <img src="/assets/01.jpg" alt="">
+      <img src="/assets/01-1.jpg" alt="">
     </div>
   </div>
+<hr>
   <div class="row goal">
     <table class="table">
       <tr class='row'>
-        <th class='col-2'>Цель:</th>
-        <td class='col-10'>Получение должности Front-End Developer, для развития навыков и умений в команде для
-          достижения цели.
+        <th class='rowt'>Objective:</th>
+        <td class='colt'>Getting a position of Front-End Developer to share my knowledge with a team for achieving common goal.
         </td>
       </tr>
+    </table>
+<hr>
+    <table class="table">
       <tr class='row'>
-        <th class='col-2'>Technologies:</th>
+        <th class='rowt'>Technologies:</th>
         <td class='col-10'>
           <ul>
             <li class='tip' *ngFor="let item of technologies">{{item.name}}
               <span>{{item.description}}</span>
             </li>
           </ul>
+      
+        </td>
+    
+      </tr>
+    </table>
+    <hr>
+      <table class="table">
+         <tr class='row'>
+        <th class='col'>Education:</th>
+        <td class='col10'>1982-1986 - Киевское высшее военно-морское политическое училище.<br>
+          2002-2004 - Украинский образовательный центр менеджмента и предпринимательства - экономист. <br>
+          2019-2019 - CyberBionic Systematics - Front End Developer.
         </td>
       </tr>
+    </table>
+    <hr>
+
+      <table class="table">
       <tr class='row'>
-        <th class='col-2'>Образование:</th>
-        <td class='col-10'>Киевское высшее военно-морское политическое училище.<br>
-          Украинский образовательный центр менеджмента и предпринимательства - экономист. <br>
-          CyberBionic Systematics - Front End Developer.
-        </td>
-      </tr>
-      <tr class='row'>
-        <th class='col-2'>Опыт:</th>
-        <td class='col-10'>
-          <b>August 2017 — Present (1 year, 2 month)</b><br>
-          <b>Web front-end developer (CyberBionic Systematics)</b>
-          <ul class='Expirience'>
+        <th class='col'>Expirience:</th>
+        <td class='col1'>
+          August 2017 — Present (1 year, 2 month)<br>
+          Web front-end developer (CyberBionic Systematics)
+          <ul>
             <li>
               Web-page design development <a href='itvdn.com'>itvdn.com</a>
             </li>
-            <li>Development of the functionality web-test app. <a href='testprovider.com'>testprovider.com</a>
-            </li>
-            <li>Development training materials <a href='itvdn.com'>itvdn.com</a>
-            </li>
-            <li>Developing SPA projects using Angular CLI
-            </li>
+            
           </ul>
-          <hr>
+       
           <b>January 2018 — Present (10 month)
           </b><br>
           <b>Senior trainer (CyberBionic Systematics)</b>
@@ -81,13 +88,10 @@
             <li>
               Lection of material to students of training center, using coaching method
             </li>
-            <li>Interim and final test for students to achieve storing material covered
-            </li>
-            <li>Selection, training and listening of teachers for the training center
-            </li>
           </ul>
         </td>
       </tr>
     </table>
+    <hr>
   </div>
 </div>

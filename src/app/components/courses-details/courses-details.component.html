@@ -1,13 +1,18 @@
 <div class="container-fluid mb-5">
   <div>
-    <h3>Course: </h3>
+    <h3>Курсы: </h3>
     <h2>{{activeCourse.name}}</h2>
     <p>{{activeCourse.description}}</p>
-    <p>Lessons: {{activeCourse.lessons.length}}</p>
-    <div class="alert alert-info col-6" *ngFor="let item of activeCourse.lessons; let i = index">
+    <p>Уроков: {{activeCourse.lessons.length}}</p>
+    <div class="item" *ngFor="let item of activeCourse.lessons; let i = index">
       {{i+1}}. {{item}}
     </div>
-
+    <hr>
+    <div class="certificate">
+      <a href={{activeCourse.sertificate}} target="_blank" title="переход на другой сайт в новой вкладке"> Сертификат
+      </a>
+    </div>
+    <hr>
   </div>
-  <button class="btn btn-lg btn-danger" (click)='goBack()'>Go back</button>
-</div>
+
+  <button (click)='goBack()'>Вернуться</button>

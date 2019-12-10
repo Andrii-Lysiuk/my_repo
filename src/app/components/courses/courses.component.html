@@ -1,17 +1,17 @@
-<div class="container-fluid">
-  <h3>CyberBionic Systematics:</h3>
+<div class="container">
+  <h1>CyberBionic Systematics:</h1>
   <div class='flex mb-5' *ngFor="let item of coursesList">
     <div class='flex__image' [style.background-image]="'url(' + item.img + ')'">
     </div>
     <div class='flex__description border-bottom border-secondary'>
       <div class='flex-direction'>
-        <h5>{{item.name}}</h5>
+        <h2>{{item.name}}</h2>
         <p class='cut'>{{item.description}}</p>
         <ul>
-          <li>{{item.lessons.length}} lessons</li>
+          <li>{{item.lessons.length}} уроков</li>
         </ul>
       </div>
-      <a [routerLink]='["/courses", item.id]' class="btn btn-primary mb-3">Learn more...</a>
+      <a [routerLink]='["/courses", item.id]' class="btn btn-primary mb-3">Читать дальше...</a>
     </div>
   </div>
 </div>

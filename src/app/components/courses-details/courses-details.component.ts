@@ -19,6 +19,6 @@ export class CoursesDetailsComponent implements OnInit {
     this.activeCourse = this.coursesService.getOne(id);
   }
   goBack() {
-    this.router.navigate(['/courses']);
+    this.router.navigate(['/education']);
   }
 }

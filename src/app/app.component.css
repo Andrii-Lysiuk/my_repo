@@ -1,25 +1,21 @@
-header {
-  margin: 0 auto;
-  max-width: 1200px;
-}
 nav {
   text-align: center;
   background: linear-gradient(to top, #e9c707, #3677f1);
-  
+
 }
 
 a {
   display: inline-block;
-  padding: 15px;
+  padding: 25px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   color: black;
 }
 
 a:hover {
-  background: rgb(221, 208, 28);
-  color: red;
+  background: linear-gradient(180deg, rgba(120,9,9,1) 26%, rgba(1,1,8,1) 100%);
+  color: wheat;
 }
 
 footer {
