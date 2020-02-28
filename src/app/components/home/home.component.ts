@@ -16,7 +16,8 @@ export class HomeComponent implements OnInit {
     { name: 'SASS', description: 'CSS Preprocessor' },
     { name: 'Angular', description: 'TypeScript framework' },
     { name: 'GULP', description: 'Javascript task runner' },
-    { name: 'JSON', description: 'JavaScript Object Notation' }
+    { name: 'JSON', description: 'JavaScript Object Notation' },
+    { name: 'Git', description: 'Distributed Version-Control System'}
   ];
   constructor() { }
 

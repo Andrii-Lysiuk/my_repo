@@ -17,12 +17,6 @@ display: flex;
   padding-left: 30px;
 }
 
-.colt {
-padding-left: 30px;
-padding-bottom: 15px;
-width: max-content;
-}
-
 .col10 {
   padding-left: 20px;
 }
@@ -92,15 +86,6 @@ li.tip span {
 li.tip:hover span {
   display: block;
   opacity: 1;
-}
-
-.Expirience li {
-  flex-wrap: wrap;
-  transition: all 0.3s ease;
-}
-
-.Expirience li:hover a {
-  color: white;
 }
 
 img {
